@@ -219,8 +219,8 @@ margin: 30px 15px 30px 0;
 
 }
 .container {
-    width: 90%; 
-    max-width: 800px; 
+    padding: 90px;
+
 }
 
 
@@ -670,18 +670,6 @@ section{
     100% {
         transform: translateY(0px);
         opacity: 1;
-    }
-}
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column; 
-        text-align: center;
-    }
-
-     
-    .social-icons {
-        display: flex;
-        justify-content: center;
     }
 }
 
