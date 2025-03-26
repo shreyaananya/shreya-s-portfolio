@@ -54,7 +54,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    background: url(me_bara.jpg) right center no-repeat
+    background: url(me_bara.jpg) right center no-repeat;
     background-size: 70% 80%;
     background-position: right center;
     padding: 70px 10% 0px;
@@ -222,8 +222,6 @@ margin: 30px 15px 30px 0;
     padding: 90px;
 
 }
-
-
 .services-list {
     display: grid;
         grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
@@ -672,4 +670,3 @@ section{
         opacity: 1;
     }
 }
-
